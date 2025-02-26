@@ -1,0 +1,89 @@
+/* Reusable UI components like buttons, cards, forms */
+
+.header {
+  display: flex;
+  padding: 4rem 8rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 3.2rem;
+}
+
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  list-style: none;
+}
+
+.main-nav-item {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.main-nav-item:link,
+.main-nav-item:visited {
+  color: #0d0d0d;
+}
+
+.main-nav-item:hover,
+.main-nav-item:active {
+  color: #6f6f6f;
+}
+
+.main-nav .cta:link,
+.cta:visited {
+  display: inline-block;
+  font-weight: 500;
+  padding: 1.2rem 2rem;
+  border-radius: 8px;
+  background-color: #0d0d0d;
+  color: #ffffff !important;
+}
+
+.main-nav .cta:hover,
+.cta:active {
+  display: inline-block;
+  font-weight: 500;
+  padding: 1.2rem 2rem;
+  border-radius: 8px;
+  background-color: #1e1e1e;
+  color: #ffffff !important;
+}
+
+.hero-form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.input label {
+  font-size: 1.3rem;
+}
+
+.input input {
+  padding: 1.2rem;
+  background-color: #f6f6f6;
+  border: none;
+  border-radius: 8px;
+}
+
+.input input[name="region"] {
+  padding-left: 4rem;
+  background-color: #f6f6f6;
+  background-image: url(../Images/location.svg);
+  background-position: 0.8rem 0.8rem;
+  background-repeat: no-repeat;
+  background-size: 2.4rem;
+}

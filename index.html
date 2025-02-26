@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nordra Travel</title>
+    <link rel="stylesheet" href="Style/base.css" />
+    <link rel="stylesheet" href="Style/components.css" />
+    <link rel="stylesheet" href="Style/layout.css" />
+    <link rel="stylesheet" href="Style/pages.css" />
+    <link rel="stylesheet" href="Style/queries.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/gnd5oid.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo-link">
+        <img class="logo" src="Images/nordra-logo.svg" alt="Omnifood logo" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a href="#" class="main-nav-item"
+              >Trip packages
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.33334 5.33337L8.01042 10L12.6667 5.33337"
+                  stroke="#6F6F6F"
+                  stroke-width="2"
+                  stroke-miterlimit="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="main-nav-item" href="#"
+              >Places to visit
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.33334 5.33337L8.01042 10L12.6667 5.33337"
+                  stroke="#6F6F6F"
+                  stroke-width="2"
+                  stroke-miterlimit="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="main-nav-item" href="#"
+              >Accommodation
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.33334 5.33337L8.01042 10L12.6667 5.33337"
+                  stroke="#6F6F6F"
+                  stroke-width="2"
+                  stroke-miterlimit="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </li>
+          <li><a class="main-nav-item" href="#">Our local guides</a></li>
+          <li><a class="main-nav-item cta" href="#">Sign In</a></li>
+          <li>
+            <div class="tabs hidden">
+              <input
+                type="radio"
+                id="lightMode"
+                name="light-mode"
+                value="lightMode"
+                checked
+              />
+              <label for="lightMode">Light</label>
+              <input
+                type="radio"
+                id="darkMode"
+                name="dark-mode"
+                value="darkMode"
+              />
+              <label for="darkMode">Dark</label>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="section-hero">
+        <div class="hero-content">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Explore the<br />Heart of the Fjords
+            </h1>
+            <p class="hero-text">
+              The Norwegian fjords are among the most spectacular natural
+              wonders in the world, offering breathtaking landscapes, tranquil
+              waters, and opportunities for outdoor adventures.
+            </p>
+          </div>
+          <form class="hero-form">
+            <div class="input input-region">
+              <label for="region">Region</label>
+              <input type="text" name="region" id="region" placeholder="All" />
+            </div>
+            <div class="input input-dates">
+              <label for="dates">Check in and out dates</label>
+              <input type="text" id="dates" placeholder="Add dates" />
+            </div>
+            <div class="input input-guests">
+              <label for="guests">Guests</label>
+              <input
+                type="text"
+                id="guests"
+                placeholder="Select"
+                value="1 adult guest"
+              />
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

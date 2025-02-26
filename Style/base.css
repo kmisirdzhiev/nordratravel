@@ -1,0 +1,65 @@
+/* Resets, global styles, typography, colors */
+
+/* 
+COLORS:
+Black: #0d0d0d
+Dark Grey: #1e1e1e
+Mid Grey: #6F6F6F;
+Light Mid Grey: #C6C6C6;
+Light Grey: #F6F6F6;
+White: #FFFFFF;
+
+
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "forma-djr-micro", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #0d0d0d;
+}
+
+.forma {
+  font-family: "forma-djr-micro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.forma {
+  font-family: "forma-djr-micro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.kepler {
+  font-family: "kepler-std", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.heading-primary {
+  font-family: "kepler-std", serif;
+  font-weight: 300;
+  font-size: 6rem;
+}

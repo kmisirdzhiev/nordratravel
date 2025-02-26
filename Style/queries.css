@@ -1,0 +1,16 @@
+/* All media queries for responsiveness */
+@media (max-width: 100em) {
+  .section-hero {
+    margin: 0 8rem;
+  }
+}
+
+@media (max-width: 90em) {
+  .section-hero {
+    margin: 0 4rem;
+  }
+
+  .header {
+    padding: 4rem;
+  }
+}

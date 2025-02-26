@@ -1,0 +1,40 @@
+/* Unique styles for each page: Home, About, etc. Sections*/
+
+.section-hero {
+  max-width: 144rem;
+  height: 84rem;
+  margin: 0 auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../Images/hero-background.jpg);
+  background-size: cover;
+  border-radius: 16px;
+  position: relative;
+}
+
+.hero-text-box {
+  color: #ffffff;
+  width: 40%;
+  padding-left: 4rem;
+}
+
+.hero-text {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  font-weight: 300;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 2rem;
+}
+
+.hero-form {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+}
