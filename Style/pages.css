@@ -38,3 +38,33 @@
   padding: 2rem;
   border-radius: 8px;
 }
+
+.usp-scenery,
+.usp-villages,
+.usp-activities {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.usp-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.usp-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.usp-description {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+
+.usp-icon {
+  width: 4.4rem;
+  height: 4.4rem;
+  align-self: center;
+}

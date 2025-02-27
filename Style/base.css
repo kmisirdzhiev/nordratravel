@@ -67,4 +67,12 @@ a:visited {
   font-family: "kepler-std", serif;
   font-weight: 300;
   font-size: 6rem;
+  line-height: 6.4rem;
+}
+
+.heading-secondary {
+  font-family: "kepler-std", serif;
+  font-weight: 300;
+  font-size: 3.2rem;
+  line-height: 3.6rem;
 }

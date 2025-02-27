@@ -3,6 +3,14 @@
   .section-hero {
     margin: 0 8rem;
   }
+
+  .container--large {
+    padding: 0 8rem;
+  }
+
+  .container--medium {
+    padding: 0 8rem;
+  }
 }
 
 @media (max-width: 90em) {
@@ -12,5 +20,13 @@
 
   .header {
     padding: 4rem;
+  }
+
+  .container--large {
+    padding: 0 4rem;
+  }
+
+  .container--medium {
+    padding: 0 4rem;
   }
 }

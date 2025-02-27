@@ -1,1 +1,32 @@
 /* Grid, flexbox, containers */
+
+.container--large {
+  margin: 6rem auto;
+  max-width: 144rem;
+}
+
+.container--medium {
+  margin: 4rem auto;
+  max-width: 144rem;
+}
+
+.grid {
+  display: grid;
+  gap: 2.4rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.center-v {
+  align-items: center;
+}
