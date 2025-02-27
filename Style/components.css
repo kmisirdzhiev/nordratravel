@@ -87,3 +87,21 @@
   background-repeat: no-repeat;
   background-size: 2.4rem;
 }
+
+.input input[name="dates"] {
+  padding-left: 4rem;
+  background-color: #f6f6f6;
+  background-image: url(../Images/calendar.svg);
+  background-position: 0.8rem 0.8rem;
+  background-repeat: no-repeat;
+  background-size: 2.4rem;
+}
+
+.input input[name="guests"] {
+  padding-left: 4rem;
+  background-color: #f6f6f6;
+  background-image: url(../Images/person.svg);
+  background-position: 0.8rem 0.8rem;
+  background-repeat: no-repeat;
+  background-size: 2.4rem;
+}
