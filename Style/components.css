@@ -11,6 +11,10 @@
   height: 3.2rem;
 }
 
+.hamburger-icon {
+  display: none;
+}
+
 .main-nav-list {
   display: flex;
   align-items: center;
@@ -54,6 +58,10 @@
   border-radius: 8px;
   background-color: #1e1e1e;
   color: #ffffff !important;
+}
+
+.nav-cta-mobile {
+  display: none;
 }
 
 .hero-form {
