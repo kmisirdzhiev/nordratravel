@@ -1,7 +1,7 @@
 /* Unique styles for each page: Home, About, etc. Sections*/
 
 .section-hero {
-  max-width: 144rem;
+  max-width: 180rem;
   height: 84rem;
   margin: 0 auto;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
@@ -25,6 +25,7 @@
 
 .hero-content {
   display: flex;
+  width: 100%;
   flex-direction: column;
   gap: 3.2rem;
   position: absolute;

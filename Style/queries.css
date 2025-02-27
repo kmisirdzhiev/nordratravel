@@ -1,9 +1,12 @@
 /* All media queries for responsiveness */
-@media (max-width: 100em) {
+
+@media (max-width: 120em) {
   .section-hero {
     margin: 0 8rem;
   }
+}
 
+@media (max-width: 100em) {
   .container--large {
     padding: 0 8rem;
   }
