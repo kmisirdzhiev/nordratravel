@@ -1,12 +1,14 @@
 /* Grid, flexbox, containers */
 
 .container--large {
-  margin: 6rem auto;
+  margin: 0 auto;
+  padding: 4rem 0;
   max-width: 144rem;
 }
 
 .container--medium {
-  margin: 4rem auto;
+  margin: 0 auto;
+  padding: 4rem 0;
   max-width: 144rem;
 }
 

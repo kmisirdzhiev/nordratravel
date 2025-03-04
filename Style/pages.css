@@ -40,6 +40,10 @@
   border-radius: 8px;
 }
 
+.section-usps {
+  border-bottom: solid 1px #f6f6f6;
+}
+
 .usp-scenery,
 .usp-villages,
 .usp-activities {
@@ -68,4 +72,11 @@
   width: 4.4rem;
   height: 4.4rem;
   align-self: center;
+}
+
+.featured-heading {
+  grid-column: 1/-1;
+}
+
+.card-trip {
 }
