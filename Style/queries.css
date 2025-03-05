@@ -102,15 +102,20 @@
   }
 
   .trip-card-container {
-    padding-right: 4rem;
+    padding: 0 4rem;
   }
 
   .section-featured .container--medium {
-    margin: 0 0 0 4rem !important;
+    margin: 0 !important;
   }
 
   .section-featured .filters {
-    margin-right: 4rem;
+    margin: 0 4rem;
+    flex-wrap: nowrap;
+  }
+
+ .featured-heading {
+    margin: 0 4rem;
     flex-wrap: nowrap;
   }
 
