@@ -74,9 +74,26 @@
   align-self: center;
 }
 
+.section-header {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  grid-column: 1/-1;
+}
+
 .featured-heading {
   grid-column: 1/-1;
 }
 
-.card-trip {
+.section-featured .filters {
+  grid-column: 1/-1;
+}
+
+.section-featured {
+  overflow: hidden;
+}
+
+.section-featured .filters {
+  flex-wrap: nowrap;
+  overflow-x: auto;
 }

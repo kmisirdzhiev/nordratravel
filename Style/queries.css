@@ -8,11 +8,13 @@
 
 @media (max-width: 100em) {
   .container--large {
-    padding: 0 8rem;
+    padding: 6 0rem;
+    margin: 0 8rem;
   }
 
   .container--medium {
-    padding: 0 8rem;
+    padding: 4 0rem;
+    margin: 0 8rem;
   }
 }
 
@@ -35,11 +37,13 @@
   }
 
   .container--large {
-    padding: 4rem 4rem;
+    padding: 4rem 0;
+    margin: 0 4rem;
   }
 
   .container--medium {
-    padding: 4rem 4rem;
+    padding: 4rem 0;
+    margin: 0 4rem;
   }
 
   .hero-text-box {
@@ -96,45 +100,61 @@
     display: inline-block;
     font-size: 1.8rem;
   }
+
+  .trip-card-container {
+    padding-right: 4rem;
+  }
+
+  .section-featured .container--medium {
+    margin: 0 0 0 4rem !important;
+  }
+
+  .section-featured .filters {
+    margin-right: 4rem;
+    flex-wrap: nowrap;
+  }
+
+
 }
 
-@media (max-width: 45em) {
-  html {
-    font-size: 55%;
-  }
+  @media (max-width: 45em) {
+    html {
+      font-size: 55%;
+    }
 
-  .hero-text-box {
-    padding: 0;
-    width: 100%;
-  }
+    .hero-text-box {
+      padding: 0;
+      width: 100%;
+    }
 
-  .header {
-    padding: 2.4rem 4rem;
-  }
+    .header {
+      padding: 2.4rem 4rem;
+    }
 
-  .section-hero {
-    margin: 0;
-    border-radius: 0;
-  }
+    .section-hero {
+      margin: 0;
+      border-radius: 0;
+    }
 
-  .hero-form {
-    grid-template-columns: 1fr;
-  }
+    .hero-form {
+      grid-template-columns: 1fr;
+    }
 
-  .grid--4-cols {
-    grid-template-columns: 1fr;
-  }
+    .grid--4-cols {
+      grid-template-columns: 1fr;
+    }
 
-  .input input {
-    padding: 2rem 1.2rem;
-    background-position: 0.8rem 1.6rem !important;
-  }
+    .input input {
+      padding: 2rem 1.2rem;
+      background-position: 0.8rem 1.6rem !important;
+    }
 
-  .filters {
-    display: none;
-  }
-
-  .finter-container span {
-    display: none;
+    .section-hero .filters {
+      display: none;
+    }
+    .view-all {
+      margin-left: 2rem;
+      min-width: 16rem;
+    }
   }
 }

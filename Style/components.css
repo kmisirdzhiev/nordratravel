@@ -129,18 +129,26 @@
   display: flex;
   gap: 0.4rem;
   overflow-x: auto;
+  scrollbar-width: none;
 }
 .filter {
   padding: 0.8rem 1.6rem;
   border-radius: 8px;
   border: none;
   background: #f0f0f0;
+  border: 1px solid #f0f0f0;
   cursor: pointer;
   transition: background 0.3s;
 }
+
+.filter:hover {
+  border: 1px solid #0d0d0d;
+}
+
 .filter.selected {
-  background: black;
+  background: #0d0d0d;
   color: white;
+  border: 1px solid #0d0d0d;
 }
 .view-all {
   margin-left: auto;
@@ -179,11 +187,172 @@
 
 .btn-primary:hover {
   cursor: pointer;
-  display: inline-block;
+}
 
+.view-all:link,
+.view-all:visited {
+  display: flex;
+  align-content: center;
+  gap: 0.4rem;
+  text-decoration: none;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #0d0d0d;
   font-weight: 500;
-  padding: 1.2rem 2rem;
+  padding-bottom: 1px;
+}
+
+.view-all:hover,
+.view-all:active {
+  color: #1e1e1e;
+  border-bottom: 1px solid #6f6f6f;
+  padding-bottom: 0;
+}
+
+.trip-card-container {
+  grid-column: 1/-1;
+  display: flex;
+  gap: 2.4rem;
+  width: 100%;
+  margin: 20px auto;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 0.4rem 0;
+}
+
+.trip-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  min-width: 30rem;
+}
+
+.trip-thumbnail-box {
+  aspect-ratio: 1 / 1; /* Ensures the boxes remain square */
+  background-color: lightgray;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+.thumbnail-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.like {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  height: 4rem;
+  width: 4rem;
   border-radius: 8px;
-  background-color: #1e1e1e;
-  color: #ffffff !important;
+  background-color: hsla(0, 0%, 96%, 0.9);
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+  z-index: 2;
+  transition: all 0.2s;
+}
+
+.like:hover {
+  background-color: hsla(0, 0%, 96%, 1);
+  cursor: pointer;
+}
+
+.trip-thumbnail-bottom-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  position: absolute;
+  bottom: 1.2rem;
+  left: 0;
+  padding: 0 1.2rem;
+  width: 100%;
+  z-index: 3;
+}
+
+.trip-thumbnail-bottom-box .filter {
+}
+
+.carousel-dots {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.carousel-dot {
+  height: 0.8rem;
+  width: 0.8rem;
+  background-color: hsl(0, 0%, 100%);
+  border: 0;
+  border-radius: 50%;
+}
+
+.carousel-dot:nth-child(1) {
+  background-color: hsla(0, 0%, 100%, 1);
+}
+
+.carousel-dot:nth-child(2) {
+  background-color: hsla(0, 0%, 100%, 0.8);
+}
+
+.carousel-dot:nth-child(3) {
+  background-color: hsla(0, 0%, 100%, 0.6);
+}
+
+.carousel-dot:nth-child(4) {
+  background-color: hsla(0, 0%, 100%, 0.4);
+}
+
+.carousel-dot:hover {
+  background-color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.trip-card-content {
+  padding: 0 1.2rem;
+}
+
+.trip-card-title {
+  font-family: "Kepler";
+  font-size: 2.8rem;
+  line-height: 3.4rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.trip-card-description {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #6f6f6f;
+  margin-bottom: 1.2rem;
+}
+
+.trip-card-pricing-box {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.trip-card-pricing {
+  font-size: 1.3rem;
+  color: #6f6f6f;
+}
+
+.trip-card-pricing span {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #0d0d0d;
+}
+
+.trip-card-rating {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 1.4rem;
+  font-weight: 600;
 }

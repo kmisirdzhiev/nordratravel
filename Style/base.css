@@ -21,7 +21,7 @@ White: #FFFFFF;
 
 *:focus {
   outline: none;
-  box-shadow: 0 0 0 2px rgba(13, 13, 13, 0.8);
+  box-shadow: 0 0 0 2px rgba(13, 13, 13, 0.8) inset;
 }
 
 html {
