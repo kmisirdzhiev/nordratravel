@@ -24,6 +24,10 @@ White: #FFFFFF;
   color: #0d0d0d;
 }
 
+button {
+  color: #0d0d0d;
+}
+
 *:focus {
   outline: none;
   box-shadow: 0 0 0 2px rgba(13, 13, 13, 0.8) inset;
