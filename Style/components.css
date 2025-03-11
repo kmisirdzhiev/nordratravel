@@ -209,15 +209,37 @@
   padding-bottom: 0;
 }
 
+.read-more:link,
+.read-more:visited {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.4rem;
+  text-decoration: none;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #0d0d0d;
+  font-weight: 500;
+  padding-bottom: 1px;
+  margin-right: auto;
+}
+
+.read-more:hover,
+.read-more:active {
+  color: #1e1e1e;
+  border-bottom: 1px solid #6f6f6f;
+  padding-bottom: 0;
+}
+
 .trip-card-container {
   grid-column: 1/-1;
   display: flex;
   gap: 2.4rem;
   width: 100%;
-  margin: 20px auto;
+  margin: 4rem 0 0 0;
   flex-wrap: nowrap;
   overflow-x: auto;
-  padding: 0.4rem 0;
+  overflow-y: hidden;
 }
 
 .trip-card {
@@ -274,9 +296,6 @@
   padding: 0 1.2rem;
   width: 100%;
   z-index: 3;
-}
-
-.trip-thumbnail-bottom-box .filter {
 }
 
 .carousel-dots {
@@ -355,4 +374,61 @@
   gap: 0.4rem;
   font-size: 1.4rem;
   font-weight: 600;
+}
+
+/*********************
+        GUIDES
+*********************/
+
+.guide-card-container {
+  grid-column: 1/-1;
+  display: flex;
+  gap: 2.4rem;
+  width: 100%;
+  margin: 4rem 0 0 0;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.guide-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  min-width: 30rem;
+  flex: 1;
+}
+
+.guide-thumbnail-box {
+  aspect-ratio: 1 / 1; /* Ensures the boxes remain square */
+  background-color: lightgray;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+.guide-location-tag {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  position: absolute;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  bottom: 0;
+  left: 0;
+  margin: 1.2rem;
+}
+
+.guide-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding: 0 1.2rem;
+}
+
+.guide-card .filters {
+  flex-wrap: wrap;
+}
+.guide-card .filter {
+  padding: 0.8rem;
 }

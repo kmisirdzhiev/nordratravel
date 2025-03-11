@@ -86,3 +86,9 @@ a:visited {
   font-size: 3.2rem;
   line-height: 3.6rem;
 }
+
+.paragraph-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.1;
+}

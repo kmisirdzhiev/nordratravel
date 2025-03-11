@@ -46,8 +46,40 @@
     margin: 0 4rem;
   }
 
+  .explore-grid {
+    margin: 0 4rem;
+  }
+
   .hero-text-box {
     width: 50%;
+  }
+}
+
+@media (max-width: 82em) {
+  .section-featured .container--medium {
+    margin: 0 0 0 4rem;
+  }
+  .section-guides .container--medium {
+    margin: 0 0 0 4rem;
+  }
+
+  .trip-card-container {
+    margin: 4rem 0 0 0;
+  }
+  .guide-card-container {
+    margin: 4rem 0 0 0;
+  }
+
+  .section-featured .filters,
+  .section-explore .filters {
+    margin: 0 4rem 0 0;
+    padding: 0;
+    flex-wrap: nowrap;
+  }
+
+  .featured-heading {
+    margin: 0 4rem 0 0;
+    flex-wrap: nowrap;
   }
 }
 
@@ -102,66 +134,72 @@
   }
 
   .trip-card-container {
-    padding: 0 4rem;
+    padding: 0 4rem 0 0;
   }
 
-  .section-featured .container--medium {
-    margin: 0 !important;
+  .guide-card-container {
+    padding: 0 4rem 0 0;
   }
 
-  .section-featured .filters {
-    margin: 0;
-    padding: 0 4rem;
-    flex-wrap: nowrap;
+  .explore-grid {
+    grid-template-columns: 2fr 1fr;
   }
 
- .featured-heading {
-    margin: 0 4rem;
-    flex-wrap: nowrap;
+  .explore-map-box {
+    display: none;
   }
-
-
+  .explore-main-box {
+  }
+  .explore-aside-box {
+  }
 }
 
-  @media (max-width: 45em) {
-    html {
-      font-size: 55%;
-    }
+@media (max-width: 45em) {
+  html {
+    font-size: 55%;
+  }
 
-    .hero-text-box {
-      padding: 0;
-      width: 100%;
-    }
+  .hero-text-box {
+    padding: 0;
+    width: 100%;
+  }
 
-    .header {
-      padding: 2.4rem 4rem;
-    }
+  .header {
+    padding: 2.4rem 4rem;
+  }
 
-    .section-hero {
-      margin: 0;
-      border-radius: 0;
-      height: 72rem;
-    }
+  .section-hero {
+    margin: 0;
+    border-radius: 0;
+    height: 72rem;
+  }
 
-    .hero-form {
-      grid-template-columns: 1fr;
-    }
+  .hero-form {
+    grid-template-columns: 1fr;
+  }
 
-    .grid--4-cols {
-      grid-template-columns: 1fr;
-    }
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
 
-    .input input {
-      padding: 2rem 1.2rem;
-      background-position: 0.8rem 1.6rem !important;
-    }
+  .input input {
+    padding: 2rem 1.2rem;
+    background-position: 0.8rem 1.6rem !important;
+  }
 
-    .section-hero .filters {
-      display: none;
-    }
-    .view-all {
-      margin-left: 2rem;
-      min-width: 16rem;
-    }
+  .section-hero .filters {
+    display: none;
+  }
+  .view-all {
+    margin-left: 2rem;
+    min-width: 16rem;
+  }
+
+  .explore-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .activities-list {
+    grid-template-columns: 1fr;
   }
 }

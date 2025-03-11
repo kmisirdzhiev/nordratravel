@@ -97,3 +97,178 @@
   flex-wrap: nowrap;
   overflow-x: auto;
 }
+
+.explore-grid {
+  grid-template-columns: 5fr 4fr 3fr;
+  max-width: 144rem;
+  margin: 0 auto 4rem auto;
+}
+
+.explore-description {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.explore-text {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #6f6f6f;
+}
+
+.explore-main-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.local-guides-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.guides-list {
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1.2rem;
+  column-gap: 2.4rem;
+}
+
+.guide-list-item {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.guide-list-item-photo {
+  height: 4rem;
+  width: 4rem;
+  background-color: #f6f6f6;
+  border-radius: 8px;
+}
+
+.guide-list-item-name {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: 500;
+}
+
+.locations-list {
+  display: flex;
+  gap: 2.4rem;
+  flex-wrap: wrap;
+}
+
+.location-list-item {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+
+.location-list-item-name {
+  font-size: 1.4rem;
+  color: #6f6f6f;
+}
+
+.activities {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.activities-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1.2rem;
+  column-gap: 2.4rem;
+}
+
+.activities-list-item {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+
+.activities-list-item-name {
+  font-size: 1.4rem;
+  color: #6f6f6f;
+}
+
+.region-gallery {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.region-gallery-thumbnail {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    8deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0) 33%
+  );
+}
+
+.view-gallery {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff !important;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  z-index: 10;
+  padding: 1.2rem;
+}
+
+.explore-aside-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.region-unique {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.region-usp {
+  display: flex;
+  flex-direction: column;
+  padding: 1.6rem 2rem;
+  border-radius: 8px;
+  background-color: #f6f6f6;
+}
+
+.region-usp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.region-usp p {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #6f6f6f;
+}
+
+.region-usp-title {
+  color: #0d0d0d !important;
+  font-weight: 500;
+}
+
+.guides-heading {
+  margin-bottom: 1.6rem;
+}
