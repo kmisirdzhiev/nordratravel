@@ -53,6 +53,10 @@
   .hero-text-box {
     width: 50%;
   }
+
+  footer {
+    padding: 6rem 4rem;
+  }
 }
 
 @media (max-width: 82em) {
@@ -148,10 +152,6 @@
   .explore-map-box {
     display: none;
   }
-  .explore-main-box {
-  }
-  .explore-aside-box {
-  }
 }
 
 @media (max-width: 45em) {
@@ -201,5 +201,26 @@
 
   .activities-list {
     grid-template-columns: 1fr;
+  }
+
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 4rem;
+  }
+
+  .footer-header {
+    flex-direction: column;
+  }
+
+  .footer-utility {
+    flex-direction: column;
+    gap: 2.4rem;
+    text-align: center;
+  }
+
+  .footer-utility ul {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
 }
